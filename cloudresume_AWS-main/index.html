@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang+="en">
+<head>
+  <link href="./styles.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset ="UTF-8"/>
+  <script>
+    // Check if pageCounter cookie exists
+    if (document.cookie.indexOf('pageCounter=') === -1) {
+      // If cookie doesn't exist, set initial value to 1
+      document.cookie = 'pageCounter=1';
+    } else {
+      // If cookie exists, get the current value
+      var cookieValue = parseInt(document.cookie.split('pageCounter=')[1]);
+      // Increment the value by 1
+      cookieValue += 1;
+      // Update the cookie with the new value
+      document.cookie = 'pageCounter=' + cookieValue;
+    }
+
+    // Get the current value of the pageCounter cookie
+    var currentValue = parseInt(document.cookie.split('pageCounter=')[1]);
+  </script>
+  <title>Olufemi Adeniyi - Cloud DevOps Engineer</title>
+</head>
+<body>
+  <h1>Olufemi O. Adeniyi</h1>
+  <ul>
+    <li>Email: olufemiphilips@outlook.com</li>
+    <li>Phone: +2347030656762</li>
+  </ul>
+
+  <h2>Summary</h2>
+  <p>Analytical, results oriented, Law graduate with a strong interest in technology 
+    and a background in project management seeking a Cloud/DevOps Engineer position. Skilled in Python and AWS with a good understanding of DevOps principles and practices, with
+    hands-on experience troubleshooting systems and network administration issues. 
+  </p>
+
+  <h2>Skills</h2><br>
+    <li>Cloud platforms: AWS, GCP</li>
+    <li>Networking: DNS, DHCP, VPN</li>
+    <li>Containerization: Docker and Kubernetes</li>
+    <li>Infrastructure as Code: Terraform, CloudFormation</li>
+    <li>Programming languages: Python</li>
+    <li>Scripting: Bash</li>
+    <li>Operating System: Linux (Ubuntu, RedHat, CentOS</li>
+    <li>Web Development: HTML5 and CSS</li>
+    <li>Project management</li>
+    <li>Collaboration and Teamwork: GIT</li><br>
+
+  <h2>Experience</h2>
+  <h3>IT Support, Double Diamond Global Resources (August 2021 - June 2022)</h3>
+    <li>Technical Troubleshooting</li>
+    <li>Worked on a team to manage and deliver a large-scale project</li>
+    <li>Developed and maintained project documentation and schedules</li>
+  <h3>Home-Lab</h3>
+    <li>Completed online courses in Python and AWS.</li>
+    <li>Built and deployed this resume using HTML5 and CSS, JAVASCRIPT and AWS.
+       (<a href="https://cloudresumechallenge.dev/" target="_blank">CloudResumeChallenge</a>).</li>
+    <li>Contributing to Open source <a href="openupthecloud/open-cloud-dev-box" target="_blank">OpenCloudDevBox</a>.</li>
+    <li>Participated in online forums and communities to learn about cloud computing and DevOps.</li>
+  
+  <h3>Certifications</h3>
+    <li><a href="https://aws.amazon.com/verification" target="_blank">AWS Certified Cloud Practitioner</a>(Validation No.:68DF5D72Q2F1QWKW)</li>
+    <li>FreeCodeCamp: <a href="https://freecodecamp.org/certification/Femoski_/responsive-web-design" target="_blank">Responsive Web Design</a></li>
+    <li>KodeKloud: Terraform Basics Training Course</li>
+    <li>KodeKloud: Bash Scripting </li>
+    <br>
+
+  <h2>Education</h2><br>
+
+  <li>LLB. University of London (September 2013 - August 2018)</li>
+  <h3>Relevant coursework:</h3>
+    <li>ICT Law</li>
+    <li>Contracts</li>
+    <li>Commercial Law</li>
+  <br>
+
+  <h2>Additional</h2>
+  <ul>
+    <li>Completed online courses: "Introduction to Python" (2021), "AWS Fundamentals" (2021)</li>
+  </ul>
+</body>
+</html>
+
