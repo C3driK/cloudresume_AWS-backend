@@ -1,7 +1,7 @@
 const getvisitors = async () => {
   try {
     const url =
-      "https://sz2l3yv8wi.execute-api.us-east-1.amazonaws.com/deployment/visitorsCount";
+    "https://ohr6o8yxfa.execute-api.us-east-1.amazonaws.com/prod/counter"
     const res = await fetch(url);
     console.log(res.ok);
     const data = await res.json();
