@@ -102,20 +102,9 @@ footer p {
 }
 
 #visit {
-  font-size: 12px;
+  font-size: 30px;
   color: #777; /* Dark Gray */
-  animation: blinkAnimation 2s infinite;
   position: absolute; /* Add this to position the visitor count */
   bottom: 5px; /* Adjust the distance from the bottom as needed */
-  left: 50%; /* Add this to center the visitor count horizontally */
-  transform: translateX(-50%); /* Add this to fine-tune centering */
 }
 
-@keyframes blinkAnimation {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
