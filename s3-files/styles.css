@@ -1,39 +1,121 @@
 body {
-  font-family: sans-serif;
-  margin: 6px;
-  padding: 6px;
-  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark Background */
+  color: #fff; /* Light Text */
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+  color: #03a9f4; /* Vibrant Blue */
+}
+
+header p {
+  font-size: 18px;
+  color: #ccc; /* Light Gray */
+}
+
+a {
+  color: #03a9f4;
+  text-decoration: none;
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
 }
 
-h1 {
-  font-size: 2em;
+.section {
+  border: 2px solid #03a9f4; /* Vibrant Blue Border */
+  background-color: #333; /* Darker Section Background */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #03a9f4; /* Vibrant Blue */
+}
+
+.section p {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1a1a1a; /* Dark Background */
+  padding: 10px 0;
+}
+
+footer p {
   margin: 0;
-  padding: 10px;
-  background-color: rgb(12, 12, 12);
-  color: white;
+  color: #ccc; /* Light Gray */
 }
 
-p, ul, h2, h3 {
-  margin: 0;
-  padding: 10px;
+
+/* Add styles for work experiences */
+.work-experience {
+  border: 2px solid #03a9f4; /* Vibrant Blue Border */
+  background-color: #1a1a1a; /* Darker Work Experience Background */
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 1.5em;
-  color: rgb(250, 247, 247);
-  background-color: #141313;
+.work-experience h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #03a9f4; /* Vibrant Blue */
 }
 
-h3 {
-  font-size: 1.2em;
+.work-duration {
+  font-size: 18px;
+  color: #ccc; /* Light Gray */
 }
 
-ul {
-  list-style: none;
+.work-experience ul {
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
+.work-experience ul li {
+  margin-bottom: 5px;
+}
+
+/* Your existing CSS styles here */
+
+/* New styles for the Visitor Count section */
+#visitor_count {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #ccc; /* Light Gray Border */
+  padding-top: 20px;
+}
+
+#visit {
+  font-size: 12px;
+  color: #777; /* Dark Gray */
+  animation: blinkAnimation 2s infinite;
+  position: absolute; /* Add this to position the visitor count */
+  bottom: 5px; /* Adjust the distance from the bottom as needed */
+  left: 50%; /* Add this to center the visitor count horizontally */
+  transform: translateX(-50%); /* Add this to fine-tune centering */
+}
+
+@keyframes blinkAnimation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
