@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./s3-files s3://olufemiphilips.click --delete
+          aws s3 sync ./s3-files s3://olufemiadeniyi.click --delete
 
       - name: Invalidate CloudFront cache
         run: |
