@@ -90,13 +90,3 @@ footer p {
 .work-experience ul li {
   margin-bottom: 5px;
 }
-
-/* Your existing CSS styles here */
-
-/* New styles for the Visitor Count section */
-#visitor_count {
-  text-align: center;
-  margin-top: 30px;
-  border-top: 1px solid #ccc; /* Light Gray Border */
-  padding-top: 20px;
-}
