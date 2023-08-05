@@ -100,11 +100,3 @@ footer p {
   border-top: 1px solid #ccc; /* Light Gray Border */
   padding-top: 20px;
 }
-
-#visit {
-  font-size: 30px;
-  color: #777; /* Dark Gray */
-  position: absolute; /* Add this to position the visitor count */
-  bottom: 5px; /* Adjust the distance from the bottom as needed */
-}
-
